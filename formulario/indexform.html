@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body bgcolor="#B5B2B2">
+        <h1>Registro de usuario</h1>
+        <form name="reg_socio" method="get">
+            Nombre:<input type="text"  name="nbre.socio" id="nbre.socio" size="50"><br>
+            Apellido:<input type="text"  name="ap.socio" id="ap.socio"><br>
+           Selecione Sexo<input type="radio" name="sexo.soc"   id="sexo.soc" value="varon">Masculino
+            o <input type="radio" name="sexo.soc"   id="sexo.soc" value="mujer" checked>Femenino<br>
+           Ingrese Edad <input type="number" name="edad.soc" id="edad-soc" min="18" max="80"><br>
+          Ocupacion:
+           <select name="ocupacion" id="ocupacion"><br>
+               <option value="Profesor">Profesor</option><br>
+               <option value="Jardinero">Jardinero</option><br>
+               <option value="Zapatero">Zapatero</option><br>
+               <option value="Carpintero">Carpintero</option><br>
+               <option value="Abogado">Abogado</option><br>
+            </select><br>
+               <textarea name="obs_socio" cols="68" rols="3">Escriba aqui su comentario</textarea> <br>
+               <input type="submit" value="Enviar" onclick="alert('Formulario Enviado')">
+               <input type="reset" value="Borrar" onclick="alert('Sus datos se han borrado')">
+            
+                
+           
+        </form>
+        
+    </body>
+</html>
